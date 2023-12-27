@@ -1,0 +1,110 @@
+body{
+  text-align: center;
+}
+.intro-page{
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  margin: auto auto;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+}
+.intro-page > h1{
+  font-size: 3rem;
+  color: #293264;
+  font-family: 'Karla', sans-serif;
+}
+.intro-page > p {
+  color: #293264;
+  font-size: 1.4rem;
+}
+.intro-page >button{
+  width: 200px;
+  margin: 0 auto;
+  background-color: #4D5B9E;
+  padding: 15px;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.random-shape {
+  position: absolute;
+      top: 0;
+      right: 0;
+      width: 350px; /* Adjust the width of the shape */
+      height: 350px; /* Adjust the height of the shape */
+      background-color: #3498db; /* Adjust the background color */
+      clip-path: circle(50% at 70% 30%); /* Adjust the clip-path for an irregular circle */
+      z-index: -2;
+   
+}
+.random-shape2
+{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 350px; /* Adjust the diameter of the circle */
+  height: 350px; /* Adjust the diameter of the circle */
+  background-color: #3498db; /* Adjust the background color */
+  border-radius: 90% 80% 10% 0 / 30% 70% 40% 30%; /* Create an unusual circular shape */
+  z-index: -2;
+}
+
+.choices{
+  display: flex;
+  gap:20px;
+  justify-content: center;
+  align-items: center;
+  
+}
+.choice{
+  border-radius: 7.942px;
+  background: #D6DBF5;
+  padding: 8px 10px;
+}
+hr{
+  background: #DBDEF0;
+  max-width: 699px;
+height: 0.794px;
+}
+.questions-page > h2{
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  max-width: 600px;
+  text-align: center;
+  margin: 15px auto;
+  color: #293264;
+}
+.check-answer-button{
+  background-color: #4D5B9E;
+  color: #F5F7FB;
+text-align: center;
+
+font-size: 1rem;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+padding: 10px 15px;
+border-radius: 15px;
+max-width: 177px;
+max-height: 114px;
+flex-shrink: 0;
+font-family: 'Inter', sans-serif;
+}
+
+.score-container >p {
+  width: 262px;
+height: 15px;
+flex-shrink: 0;
+color: #293264;
+text-align: center;
+font-family: Inter;
+font-size: 1rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 10px auto;
+}
